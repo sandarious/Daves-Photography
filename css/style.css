@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+
+
+.btn {
+    display: inline-block;
+    color: #f4f4f4;
+    background: #4370d3;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #3668b4;
+}
+
+.bg-light {
+    background: darkkhaki;
+}
+
+.bg-dark {
+    background: burlywood;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #444;
+    color: #f4f4f4;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar a {
+    color: #f4f4f4;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #f4f4f4;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+/* Showcase */
+
+#showcase {
+    background: url('../img/woman-on-rock-platform-viewing-city-196667.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: midnightblue;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;        
+}
+
+#showcase .showcase-content h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+#showcase .showcase-content p {
+    font-size: 2rem;
+}
+
+/* Portfolio */
+
+#portfolio h2 {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+/* About */
+
+.container {
+    display: flex;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#about h2 {
+    text-decoration: underline;
+    color: darkslategray;
+}
+
+.container h3 {
+    color: darkslategray;
+}
+
+.container p {
+    text-align: justify ;
+    color: darkslategray;
+    padding: 0 1rem;
+}
+
+/* Contact */
+
+#contact form {
+    text-align: center;
+}
+
+.contact-form h2 {
+    text-decoration: underline;
+    color: #444;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;    
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#details {
+    display: flex;
+    background: #6d5332;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    height: 100%;
+}
+
+#details .detail {
+    text-align: center ;
+    justify-content: center;
+    color: darkslategray;
+    padding: 0 1rem;    
+}
+
+#details .detail h3 {
+    color: #f4f4f4;
+}
+
+#details .detail p  {
+    color: #f4f4f4;
+}
+
+#details .detail i {
+    color: #f4f4f4;
+}
+
+/* footer */
+#main-footer {
+    background:  #3f2d17;
+}
+
+#main-footer p {
+    color: #f4f4f4;
+}
