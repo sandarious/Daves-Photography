@@ -1,0 +1,87 @@
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #showcase {
+      background: url('../img/black-sony-dslr-camera-with-telephoto-lens-and-tripod-1447264.jpg');
+      color: ghostwhite;
+    }
+
+    #showcase .showcase-content h1 {
+      padding-top: 1.5rem;
+      font-size: 2rem;
+    }
+  
+    #showcase .showcase-content p {
+      font-size: 1rem;
+    }
+
+    #portfolio {
+      background: gray;
+    }
+
+    #portfolio h2 {
+      color: azure;
+    }
+
+    #portfolio .images div:nth-last-of-type(1n+3){
+        display: none;
+    }
+
+    #about {
+      background: #333;
+    }
+      
+    #about .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0.75rem;
+    }
+
+    #about h2 {
+      color: azure;
+    }
+
+    #about .container h3  {
+      color: lavender;
+      text-align: justify;
+      margin: 1rem;
+    }
+
+    #about .container p {
+      color: lavender;
+    }
+
+    #contact .contact-form input,
+    #contact .contact-form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+
+    #details {
+      flex-direction: column; 
+      background: grey; 
+    }
+
+    #details .detail {
+      text-align: left;
+      margin: 0.75rem;
+    }
+
+    #main-footer {
+      font-size: small;
+      background: #333;
+    }
+
+}
+  
+  
+
